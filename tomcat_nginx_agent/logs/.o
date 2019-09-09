@@ -1,0 +1,12 @@
+	"locations": [{
+		"caseSensitive": true,
+		"directives": [{
+			"dynamicAttributes": {
+				"pool-name": "gorgon"
+			},
+			"type": "proxy_pass"
+		}],
+		"httpsType": 1,
+		"matchType": "prefix",
+		"pattern": "/login"
+	}],
